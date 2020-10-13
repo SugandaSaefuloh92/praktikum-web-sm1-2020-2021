@@ -1,0 +1,53 @@
+#konten {
+    background-color: aquamarine;
+    padding: 20px   ;
+    
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+small {
+    color: blue ;
+    font-size: 23px;
+    
+}
+
+#konten-rangkuman-kasus{
+    padding-top: 35px;
+    text-align: center;
+}
+
+.round-box-1 {
+    color: blueviolet;
+}
+
+.round-box-2{
+    color: #cccc00;
+}
+
+.round-box-3{
+    color: green;
+}
+
+.round-box-4{
+    color: red;
+}
+
+#footer {
+text-align: center;
+padding-top: 24px;
+}
+
+.element{
+    width: auto;
+    height: 20px;
+    background-color: grey;
+    animation-name: ganti-warna;
+    animation-duration: 4s; 
+}
+@keyframes ganti-warna {
+    from {background-color: grey;}
+    to {background-color: aquamarine;}
+  }
